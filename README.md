@@ -1,6 +1,8 @@
 # Lista de Exercício 1 - Teste de UI com Cypress
 Repositório destinado à Lista de Exercício 1 - Teste de UI com cypress - da disciplina S206 - Qualidade de Software.
-O objetivo principal é o desenvolvimento de testes de UI para o website [Gartic](https://gartic.com.br/).
+O objetivo principal é o desenvolvimento de testes de UI para o website [Gartic](https://gartic.com.br/).  
+<img width="302" height="116" alt="image" src="https://github.com/user-attachments/assets/94ca081d-b48e-4efc-9d37-f1b7ce2d1472" />
+
 
 ## :pencil: Descrição
 O website [Gartic](https://gartic.com.br/) é um jogo multiplayer de adivinhação de desenhos. Para a Lista de Exercícios 1, foram desenvolvidos testes de UI para o login, criação e gravação de salas utilizando a ferramenta `cypress` e o `mochawesome` para a geração de relatório.  
@@ -23,7 +25,7 @@ npm install
 ```
 
 4. Acessar relatório de testes  
-O relatório é gerado automaticamente após a execução de testes e pode ser encontrado em [`cypress/reports/html`](./cypress/reports/html) no arquivo [`index.html`](./cypress/reports/html/index.html).
+O relatório é gerado automaticamente após a execução de testes e pode ser encontrado em [`cypress/reports/html`](./Lista1_Cypress/cypress/reports/html) no arquivo [`index.html`](./Lista1_Cypress/cypress/reports/html/index.html).
 
 > :pushpin: **Notas:** É necessário ter o [Node.js](https://nodejs.org/) instalado (versão 18 ou superior) e o npm configurado corretamente no sistema.
 
@@ -50,8 +52,9 @@ Os testes de UI foram divididos em 2 suítes de teste:
 Dessa forma, são realizados 8 testes, sendo 6 positivos e 2 negativos.
 
 ### Relatório de testes
-O relatório de testes é gerado automaticamente em formato HTML pelo `Mochawesome` e está presente em [`cypress/reports/html`](./cypress/reports/html). Seu resultado pode ser visto a seguir:
-<!-- Adicionar imagem do relatório -->
+O relatório de testes é gerado automaticamente em formato HTML pelo `Mochawesome` e está presente em [`cypress/reports/html`](./Lista1_Cypress/cypress/reports/html). Seu resultado pode ser visto a seguir:
+<img width="1900" height="913" alt="image" src="https://github.com/user-attachments/assets/22144675-0ea9-4446-9154-7e18ea617e83" />
+
 
 ## :hammer_and_wrench: Tecnologias e Ferramentas Utilizadas
 - Linguagem de Programação: **JavaScript**
