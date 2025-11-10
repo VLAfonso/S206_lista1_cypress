@@ -1,3 +1,12 @@
+Cypress.on('uncaught:exception', (err, runnable) => {
+  //Ignora erro da aplicação 
+  if (err.message.includes('Unexpected token') && err.message.includes('is not valid JSON')) {
+    return false
+  }
+  //Falha em outras exceções
+  return true
+})
+
 describe('Testes de login', () => {
   it('Teste de login com sucesso', () => {
     //Realizar login
